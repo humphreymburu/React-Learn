@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css";
 import Listz from "./Listz";
 import Blog from "./Blog";
+import NameForm from "./formz";
 
 export default function App() {
   const numbers = [1, 2, 3, 4, 5, 8];
@@ -15,6 +16,7 @@ export default function App() {
     <div className="App">
       <Listz numbers={numbers} />
       <Blog posts={posts} />
+      <NameForm />
     </div>
   );
 }
